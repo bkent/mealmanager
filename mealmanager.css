@@ -1,0 +1,91 @@
+table {
+	border-collapse: collapse; 
+	font-family: arial; 
+	padding:4px 4px 4px 4px;
+	width:100%;
+	text-align:left;
+	font-size:1em;
+}
+
+td {
+    width:auto;
+	border-top:2px solid #7FE817;
+	border-bottom:2px solid #7FE817;
+	padding:4px 4px 4px 4px;
+}
+
+th { 
+	text-align: left;
+	padding:4px 4px 4px 4px;
+	background-color:#59E817;
+	color:#ffffff;
+}
+
+tr.alt td {
+	color:#000000;
+	background-color:#6AFB92;
+}
+
+body{
+	font-family: arial black;
+	font-size: 0.8em;
+}
+
+input, button {
+	font-family: arial black;
+}
+
+.maintabdiv {
+   display:inline-block;
+   overflow:hidden;
+   width:100%;
+   float:left;
+}
+
+.container {
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.searchbar {
+   display:inline-block;
+   overflow:hidden;
+   padding: auto;
+}
+
+.tabdataeven-narrow {
+   overflow:hidden;
+   padding:4px 4px 4px 4px;
+   border: 1px solid #7FE817; 
+   min-height: 100%;
+   height: 100%;
+   float:left;
+   display:inline-block;
+   width:20%;
+}
+
+.tabdataodd-narrow {
+   overflow:hidden;
+   padding:4px 4px 4px 4px;
+   border: 1px solid #7FE817;
+   background-color: #6AFB92;
+   min-height: 100%;
+   height: 100%;
+   float:left;
+   display:inline-block;
+   width:20%;
+}
+
+.tabrow {
+   display:inline-block;
+   overflow:hidden;
+   width:99%;
+   border: 3px solid #7FE817;
+   word-wrap: normal;
+   height: 100%;
+}
+
+.formdiv{
+float:left;
+}
