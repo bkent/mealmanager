@@ -38,6 +38,7 @@ $user_id=$row['id'];
  	$_SESSION["valid_user"] = $_POST["user_name"];
  	$_SESSION["short_name"] = $short_name;
 	$_SESSION["user_id"] = $user_id;
+	$_SESSION["start_date"] = date('Y-m-d');
 
  	// Redirect to home page
 	echo "success";
